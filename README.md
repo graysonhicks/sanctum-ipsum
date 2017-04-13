@@ -18,6 +18,7 @@ Just `git clone` and `npm install` to get up and running.
 Feel free to contribute to the design, dictionary, or issues below.
 
 ### To Do:
+* API
 * Other denominations dropdown and dictionaries
 * Copy to clipboard button
 * Copy with HTML markup option
