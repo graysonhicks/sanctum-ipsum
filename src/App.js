@@ -14,7 +14,7 @@ class App extends Component {
         this.state = {
             numParagraphs: 1,
             numSentences: 1,
-            text: 'default'
+            text: this.ipsum(1, 5, this.words)
         };
 
         this.generate = this.generate.bind(this);
