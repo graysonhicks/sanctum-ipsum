@@ -1,6 +1,7 @@
 .generator-container {
     background-color: white;
     border-top: 5px solid #002A94;
+    margin-bottom: 24px;
 }
 
 #generator-header {
