@@ -1,6 +1,6 @@
-#Sanctum ipsum
+# Sanctum Ipsum t
 
-##The holiest lorem ipsum generator on the internet
+## The holiest lorem ipsum generator on the internet
 
 ### Usage
 * Choose how many paragraphs you want to generate
