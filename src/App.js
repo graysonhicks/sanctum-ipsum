@@ -13,7 +13,7 @@ class App extends Component {
 
         this.state = {
             numParagraphs: 1,
-            numSentences: 1,
+            numSentences: 5,
             text: this.ipsum(1, 5, this.words)
         };
 
@@ -65,7 +65,7 @@ class App extends Component {
         for(var j = 0; j < numSentences; j++){
           // sentence placeholder
           var sentence = "";
-          // 15 - 20 words per sentence, randomly, then loop that many times, grabbing random word
+          // 10 - 15 words per sentence, randomly, then loop that many times, grabbing random word
           var numWords = Math.floor((Math.random()*6)+10);
 
           for(var k = 0; k < numWords; k++){
@@ -111,6 +111,8 @@ class App extends Component {
                         generate={this.generate}
                         updateParagraphs={this.updateParagraphs}
                         updateSentences={this.updateSentences}
+                        numParagraphs={this.state.numParagraphs}
+                        numSentences={this.state.numSentences}
                     />
                   </Col>
                   <Col xs={8}>

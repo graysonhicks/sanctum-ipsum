@@ -8,7 +8,7 @@ class SentenceSelectComponent extends Component {
         <div className="sentence-select-container">
             <FormGroup controlId="formControlsSelect">
              <ControlLabel>Number of Sentences per Paragraph</ControlLabel>
-             <FormControl componentClass="select" onChange={this.props.updateSentences}>
+             <FormControl componentClass="select" value={this.props.numSentences} onChange={this.props.updateSentences}>
                <option value="1">1</option>
                <option value="2">2</option>
                <option value="3">3</option>

@@ -8,7 +8,7 @@ class ParagraphSelectComponent extends Component {
         <div className="paragraph-select-container">
             <FormGroup controlId="formControlsSelect">
              <ControlLabel>Number of Paragraphs</ControlLabel>
-             <FormControl componentClass="select" onChange={this.props.updateParagraphs}>
+             <FormControl componentClass="select"value={this.props.numParagraphs}  onChange={this.props.updateParagraphs}>
                <option value="1">1</option>
                <option value="2">2</option>
                <option value="3">3</option>
