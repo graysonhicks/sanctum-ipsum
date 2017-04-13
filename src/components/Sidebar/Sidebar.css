@@ -1,0 +1,28 @@
+.sidebar-container {
+    background-color: white;
+    border-top: 5px solid #0046F3;
+}
+
+#sidebar-header {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 12px;
+    background-color: #e1e1e1;
+    margin-bottom: 24px;
+}
+
+#generate-button {
+    background-color: #00B100;
+    border-color: #008F00;
+    margin: 12px;
+    color: white;
+}
+
+#copy-button {
+    background-color: #0046F3;
+    border-color: #001C61;
+    margin: 12px;
+    color: white;
+}

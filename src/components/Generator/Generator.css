@@ -1,0 +1,18 @@
+.generator-container {
+    background-color: white;
+    border-top: 5px solid #002A94;
+}
+
+#generator-header {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    background-color: #E1E1E1;
+    padding: 12px;
+    margin-bottom: 24px;
+}
+
+#lorem-container {
+    padding: 12px;
+}

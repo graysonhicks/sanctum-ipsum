@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,600|Open+Sans');
+.color-primary-0 { color: #DD0000 }	/* Main Primary color */
+.color-primary-1 { color: #FF2929 }
+.color-primary-2 { color: #FF0000 }
+.color-primary-3 { color: #910000 }
+.color-primary-4 { color: #060000 }
+
+.color-secondary-1-0 { color: #002A94 }	/* Main Secondary color (1) */
+.color-secondary-1-1 { color: #4077FF }
+.color-secondary-1-2 { color: #0046F3 }
+.color-secondary-1-3 { color: #001C61 }
+.color-secondary-1-4 { color: #000104 }
+
+.color-secondary-2-0 { color: #DDDC00 }	/* Main Secondary color (2) */
+.color-secondary-2-1 { color: #FFFE29 }
+.color-secondary-2-2 { color: #FFFD00 }
+.color-secondary-2-3 { color: #919000 }
+.color-secondary-2-4 { color: #060600 }
+
+.color-green { color: #00B100 }
+.color-dark-green { color: #008F00 }
+
+.color-gray { color: #C3C3C3 }
+.color-light-gray { color: #E1E1E1 }
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #C3C3C3;
+  font-family: 'Open Sans';
+}
