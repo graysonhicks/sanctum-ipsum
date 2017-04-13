@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import FontAwesome from 'react-fontawesome';
+// import FontAwesome from 'react-fontawesome';
 import {Grid, Row, Col} from 'react-bootstrap';
 import './App.css';
 
@@ -7,7 +7,7 @@ import HeaderComponent from './components/Header/Header';
 import SidebarComponent from './components/Sidebar/Sidebar';
 import GeneratorComponent from './components/Generator/Generator';
 import {words} from './words';
-console.log(words);
+
 class App extends Component {
     constructor(props) {
         super(props);
