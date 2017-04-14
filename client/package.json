@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://graysonhicks.github.io/sanctum-ipsum",
+  "proxy": "http://localhost:3001/",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "react": "^15.5.4",
