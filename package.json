@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-      "start": "concurrently \"npm run server\" \"npm run client\"",
-     "server": "node index.js",
-     "client": "node start-client.js"
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node index.js",
+    "client": "node start-client.js"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
@@ -13,8 +13,7 @@
     "debug": "~2.6.3",
     "express": "^4.15.2",
     "jade": "~1.11.0",
-    "morgan": "~1.8.1",
-    "serve-favicon": "~2.4.2"
+    "morgan": "~1.8.1"
   },
   "devDependencies": {
     "concurrently": "^3.4.0"
