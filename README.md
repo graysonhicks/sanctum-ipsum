@@ -1,26 +1,23 @@
-# Sanctum Ipsum 
+# Sanctum Ipsum
 
 ## The holiest lorem ipsum generator on the internet
 
-### Usage
+### API Usage
 
-[Check it out here](https://graysonhicks.github.io/sanctum-ipsum/)
+[Check it out here](https://sanctum-ipsum.herokuapp.com/api/3/5)
 
-* Choose how many paragraphs you want to generate
-* Choose how many sentences you want in each paragraph
+GET
+https://sanctum-ipsum.herokuapp.com/api/:numberOfParagraphs/:sentencesPerParagraph
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This project is hosted with [Heroku](https://dashboard.heroku.com/).
 
-Just `git clone` and `npm install` to get up and running.
+Server is Node/Express
 
 ### Contributing
 
 Feel free to contribute to the design, dictionary, or issues below.
 
 ### To Do:
-* API
-* Other denominations dropdown and dictionaries
-* Copy to clipboard button
-* Copy with HTML markup option
-* At least 100 'words' per dictionary
-* More relevant design
+* Plain text param
+* Language param
+* Dictionary param
