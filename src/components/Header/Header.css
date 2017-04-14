@@ -3,6 +3,7 @@
     padding: 12px;
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(50,50,50,0.1);
+    height: 65px;
 }
 
 .header-container .main-header {
@@ -14,9 +15,15 @@
     font-family: "Playfair Display SC";
     font-weight: bold;
     letter-spacing: 1.5px;
+    vertical-align: middle;
 }
 
 .header-container .sub-heading {
     color: #202e3a;
     font-family: 'Roboto';
+    vertical-align: middle;
+}
+
+.header-container .sub-heading .header-logo {
+    margin-right: 24px;
 }
