@@ -5,18 +5,18 @@
     box-shadow: 0 0 20px 0 rgba(50,50,50,0.1);
 }
 
-.main-header {
+.header-container .main-header {
     color: #202e3a;
     margin-top: 0px;
     font-family: 'Open Sans';
     margin-right: 24px;
-    font-size: 20px;
+    font-size: 26px;
     font-family: "Playfair Display SC";
     font-weight: bold;
     letter-spacing: 1.5px;
 }
 
-.sub-heading {
+.header-container .sub-heading {
     color: #202e3a;
     font-family: 'Roboto';
 }

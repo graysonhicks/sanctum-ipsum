@@ -1,0 +1,25 @@
+.footer-container {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(134,149,177,1);
+    padding: 12px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(50,50,50,0.1);
+
+}
+
+.footer-container .sub-heading {
+    color: #202e3a;
+    font-family: 'Roboto';
+}
+
+.footer-container .sub-heading a {
+    color: #202e3a;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.footer-container .footer-logo {
+    margin-top: 12px;
+    color: #202e3a;
+}

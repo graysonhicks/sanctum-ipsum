@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-// import FontAwesome from 'react-fontawesome';
+
 import {Grid, Row, Col} from 'react-bootstrap';
 import './App.css';
 
 import HeaderComponent from './components/Header/Header';
+import FooterComponent from './components/Footer/Footer';
 import SidebarComponent from './components/Sidebar/Sidebar';
 import GeneratorComponent from './components/Generator/Generator';
 import {words} from './words';
@@ -123,6 +124,7 @@ class App extends Component {
                   </Col>
               </Row>
           </Grid>
+          <FooterComponent></FooterComponent>
       </div>
     );
   }

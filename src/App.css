@@ -1,3 +1,4 @@
 .app-container {
     margin-top: 12px;
+    min-height: calc(100vh - 170px);
 }
