@@ -20,7 +20,7 @@ class App extends Component {
         };
 
 
-
+        //this.search = this.search.bind(this);
         this.generate = this.generate.bind(this);
         this.updateParagraphs = this.updateParagraphs.bind(this);
         this.updateSentences = this.updateSentences.bind(this);
@@ -43,6 +43,29 @@ class App extends Component {
             numParagraphs: e.target.value
         });
     }
+
+
+    // checkStatus(response) {
+    //   if (response.status >= 200 && response.status < 300) {
+    //     return response;
+    //   }
+    //   const error = new Error(`HTTP Error ${response.statusText}`);
+    //   error.status = response.statusText;
+    //   error.response = response;
+    //   console.log(error); // eslint-disable-line no-console
+    //   throw error;
+    // }
+
+    // search(query) {
+    //   return fetch(`api/3/5`, {
+    //       'Content-Type': 'application/json',
+    //       'Accept': 'application/json'
+    //   }).then((res) => this.checkStatus(res))
+    //     .then((goodRes) => goodRes.json())
+    //     .then((json) => this.setState({
+    //         text: json.text
+    //     }))
+    // }
 
     updateSentences(e){
         // set value from sentence select in state
@@ -105,6 +128,7 @@ class App extends Component {
 
 
   render() {
+
     return (
       <div className="App">
           <HeaderComponent></HeaderComponent>
