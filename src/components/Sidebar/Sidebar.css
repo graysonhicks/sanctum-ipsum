@@ -1,6 +1,7 @@
 .sidebar-container {
     background-color: white;
-    border-top: 5px solid #0046F3;
+    color: #202e3a;
+    box-shadow: 0 0 20px 0 rgba(50,50,50,0.1);
 }
 
 #sidebar-header {
@@ -9,13 +10,15 @@
     text-transform: uppercase;
     letter-spacing: 1.5px;
     padding: 12px;
-    background-color: #e1e1e1;
+    background-color: #8695B1;
     margin-bottom: 24px;
+    color: white;
 }
 
 #generate-button {
-    background-color: #00B100;
-    border-color: #008F00;
+    background-color: rgba( 59,143, 65,1);
+    border-color: rgba( 59,143, 65,1);
+    border-radius: 0px;
     margin: 12px;
     color: white;
 }

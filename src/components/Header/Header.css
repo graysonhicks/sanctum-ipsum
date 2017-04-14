@@ -1,20 +1,22 @@
 .header-container {
-    background-color: white;
+    background-color: rgba(182,192,210,1);
     padding: 12px;
-    border-top: 5px solid #4077FF;
     text-align: center;
+    box-shadow: 0 0 20px 0 rgba(50,50,50,0.1);
 }
 
 .main-header {
-    color: #00040E;
+    color: #202e3a;
     margin-top: 0px;
     font-family: 'Open Sans';
     margin-right: 24px;
     font-size: 20px;
+    font-family: "Playfair Display SC";
     font-weight: bold;
     letter-spacing: 1.5px;
 }
 
 .sub-heading {
-    color: #00040E;
+    color: #202e3a;
+    font-family: 'Roboto';
 }

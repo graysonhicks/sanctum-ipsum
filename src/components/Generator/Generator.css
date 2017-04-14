@@ -1,7 +1,8 @@
 .generator-container {
     background-color: white;
-    border-top: 5px solid #002A94;
     margin-bottom: 24px;
+    color: #202e3a;
+    box-shadow: 0 0 20px 0 rgba(50,50,50,0.1);
 }
 
 #generator-header {
@@ -9,9 +10,10 @@
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    background-color: #E1E1E1;
+    background-color: #8695B1;
     padding: 12px;
     margin-bottom: 24px;
+    color: white;
 }
 
 #lorem-container {
