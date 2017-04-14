@@ -7,11 +7,11 @@
 [Check it out here](https://sanctum-ipsum.herokuapp.com/api/3/5)
 
 #### GET
-##### https://sanctum-ipsum.herokuapp.com/api/:numberOfParagraphs/:sentencesPerParagraph
-Returns
+##### `https://sanctum-ipsum.herokuapp.com/api/:numberOfParagraphs/:sentencesPerParagraph`
+###### Returns
 `{
     'ipsum': '<p>Confession rosary Pope Francis Paschal mystery Ash Wednesday natural law Nicene creed saint medal Nicene creed canonization communion adoration catechesis.</p>'
-    }`
+ }`
 
 
 This project is hosted with [Heroku](https://dashboard.heroku.com/).
