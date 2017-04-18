@@ -7,6 +7,7 @@ import HeaderComponent from './components/Header/Header';
 import FooterComponent from './components/Footer/Footer';
 import SidebarComponent from './components/Sidebar/Sidebar';
 import GeneratorComponent from './components/Generator/Generator';
+
 import {words} from './words';
 
 class App extends Component {
@@ -110,7 +111,7 @@ class App extends Component {
           <HeaderComponent></HeaderComponent>
           <Grid className="app-container">
               <Row>
-                  <Col xs={4}>
+                  <Col xs={12} md={4}>
                     <SidebarComponent
                         generate={this.generate}
                         updateParagraphs={this.updateParagraphs}
@@ -119,11 +120,12 @@ class App extends Component {
                         numSentences={this.state.numSentences}
                     />
                   </Col>
-                  <Col xs={8}>
+                  <Col xs={12} md={8}>
                     <GeneratorComponent text={this.state.text} ></GeneratorComponent>
                   </Col>
               </Row>
           </Grid>
+
           <FooterComponent></FooterComponent>
       </div>
     );

@@ -27,3 +27,22 @@
 .header-container .sub-heading .header-logo {
     margin-right: 24px;
 }
+
+@media (max-width: 768px) {
+    .header-container {
+        height: 120px;
+    }
+
+    .header-container .main-header {
+        margin-right: 0px;
+        font-size: 20px;
+        display: block;
+    }
+
+    .header-container .sub-heading .header-logo {
+        display: block;
+        margin: 0 auto;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+}

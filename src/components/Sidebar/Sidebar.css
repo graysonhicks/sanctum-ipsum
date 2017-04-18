@@ -29,3 +29,14 @@
     margin: 12px;
     color: white;
 }
+
+@media (max-width: 768px) {
+    #sidebar-header {
+        margin-bottom: 8px;
+    }
+
+    #generate-button {
+        display: inline-block;
+        width: 91%;
+    }
+}

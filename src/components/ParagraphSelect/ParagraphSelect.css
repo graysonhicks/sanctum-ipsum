@@ -1,3 +1,10 @@
 .paragraph-select-container {
     padding: 12px;
 }
+
+@media (max-width: 768px) {
+    .paragraph-select-container {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+}

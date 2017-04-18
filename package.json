@@ -8,7 +8,8 @@
     "react": "^15.5.4",
     "react-bootstrap": "^0.30.8",
     "react-dom": "^15.5.4",
-    "react-icons": "^2.2.3"
+    "react-icons": "^2.2.3",
+    "react-share": "^1.13.0"
   },
   "devDependencies": {
     "gh-pages": "^0.12.0",

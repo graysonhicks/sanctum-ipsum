@@ -1,0 +1,9 @@
+.social-container {
+    text-align: center;
+}
+
+.social-network {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
