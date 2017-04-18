@@ -39,10 +39,11 @@
         display: block;
     }
 
-    .header-container .sub-heading .header-logo {
+    .header-container .header-logo-container {
         display: block;
         margin: 0 auto;
         margin-top: 8px;
         margin-bottom: 8px;
     }
+
 }
