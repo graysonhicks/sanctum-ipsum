@@ -7,8 +7,8 @@ class HeaderComponent extends Component {
     return (
         <div className="header-container">
           <span className="main-header">SANCTUM IPSUM</span>
-
-          <span className="sub-heading"><FaPeace className="header-logo" size={30}/> the holiest lorem ipsum generator on the web</span>
+          <span className="header-logo-container"><FaPeace className="header-logo" size={30}/></span>
+          <span className="sub-heading"> the holiest lorem ipsum generator on the web</span>
         </div>
     );
   }

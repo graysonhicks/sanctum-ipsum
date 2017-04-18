@@ -8,6 +8,6 @@ module.exports = {
         "saint medal", "stations of the cross", "immaculate conception", "triduum", "Holy days of obligation", "opus Dei", "annointing of the sick", "adoration", "Ash Wednesday", "confession",
         "miter", "ecumenical council", "catechesis", "natural law", "monsignor", "diocese", "seal of confession", "consecration", "encyclical", "deacon", "apostolic succession", "litany",
         "magisterium", "College of Cardinals", "Padre Pio", "St. Therese of Lisieux", "Our Lady of Guadalupe", "bless us, oh lord, and these thy gifts", "forgive me Father, for I have sinned",
-        "St. Joseph", "St. James"
+        "St. Joseph", "St. James", "novena"
     ]
 }

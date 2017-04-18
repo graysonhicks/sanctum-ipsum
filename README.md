@@ -19,6 +19,7 @@ Feel free to contribute to the design, dictionary, or issues below.
 
 ### To Do:
 * API
+* Deploy server to heroku
 * Other denominations dropdown and dictionaries
 * Copy to clipboard button
 * Copy with HTML markup option
