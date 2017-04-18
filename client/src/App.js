@@ -149,7 +149,6 @@ class App extends Component {
                   </Col>
               </Row>
           </Grid>
-
           <FooterComponent></FooterComponent>
       </div>
     );
