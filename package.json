@@ -1,6 +1,9 @@
 {
   "name": "sanctum-ipsum",
   "version": "0.0.0",
+  "engines": {
+    "node": ">=8.1.4"
+  },
   "private": true,
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
