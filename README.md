@@ -2,6 +2,10 @@
 
 ## The holiest lorem ipsum generator on the internet
 
+### npm Usage
+
+For use as an npm package, go [here](https://github.com/graysonhicks/sanctum-ipsum-js/).
+
 ### Static Site Usage
 
 [Check it out here](https://graysonhicks.github.io/sanctum-ipsum/)
