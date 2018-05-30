@@ -12,6 +12,7 @@ For use as an npm package, go [here](https://github.com/graysonhicks/sanctum-ips
 
 * Choose how many paragraphs you want to generate
 * Choose how many sentences you want in each paragraph
+* Copy and paste your lorem ipsum to your project
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
