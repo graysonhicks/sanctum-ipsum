@@ -1,7 +1,7 @@
 module.exports = {
     words: ["pope", "catholic", "vatican", "transubstantiation", "universal", "communion", "monk", "monastery", "priest", "nun", "abbot", "cathedral", "holy Mary, Mother of God",
         "our Father, who art in Heaven",
-        "the sacred heart of Jesus", "peace be with you, and also with you", "St. Michael the Archangel defend us in battle", "salve regina", "St. Thomas Aquinas", "Thomas Merton", "Fatima",
+        "the sacred heart of Jesus", "peace be with you, and with your spirit", "St. Michael the Archangel defend us in battle", "salve regina", "St. Thomas Aquinas", "Thomas Merton", "Fatima",
         "Lourdes", "eucharist", "Trappist", "Ursuline", "Cistercian", "liturgy of the hours", "confiteor", "dogma", "tradition", "Papal enclave", "feast day", "saint", "tridentine",
         "Benedictine", "canonization", "beatified", "St. Rose of Lima", "St. Gabriel", "John-Henry Newman", "annunciation", "assumption", "Kyrie eleison", "Christe eleison", "pontificate",
         "vicar of Christ", "intercession", "Paschal mystery", "Apostles creed", "Nicene creed", "St. Francis of Assisi", "Pope St. John Paul II", "Pope Francis", "rosary", "relic",
