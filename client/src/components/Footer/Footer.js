@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import FaGithub from 'react-icons/lib/fa/github';
+import {FaGithub} from 'react-icons/fa';
 import './Footer.css';
 
 import SocialComponent from '../Social/Social';

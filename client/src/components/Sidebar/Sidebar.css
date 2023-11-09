@@ -23,12 +23,6 @@
     color: white;
 }
 
-#copy-button {
-    background-color: #0046F3;
-    border-color: #001C61;
-    margin: 12px;
-    color: white;
-}
 
 @media (max-width: 768px) {
     #sidebar-header {

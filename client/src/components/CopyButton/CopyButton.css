@@ -1,0 +1,39 @@
+.copy-container {
+    margin: 12px;
+}
+
+#copy-button {
+    margin: 0px 10px 10px 0px;
+    background-color: #0046F3;
+    border-color: #001C61;
+    color: white;
+}
+
+#copy-tooltip {
+    background-color: #5e7095;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+#copy-tooltip::before {
+    content: '';
+    width: 0;
+    height: 0;
+    margin-right: -2px;
+    border-radius: 0px 5px 5px 0px;
+    border-top: 15px solid transparent;
+    border-right: 10px solid #5e7095;
+    border-bottom: 15px solid transparent;
+    right: 100%;
+    top: 0%;
+    position: absolute;
+    clear: both;
+}
+
+.copy-tooltip-transition-enter {
+    opacity: 1 !important;
+}
