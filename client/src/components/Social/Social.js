@@ -1,24 +1,20 @@
 import React, { Component } from 'react';
 import './Social.css';
 import {
-  ShareButtons,
-  generateShareIcon,
+  FacebookShareButton,
+  EmailShareButton,
+  LinkedinShareButton,
+  TwitterShareButton,
+  TwitterIcon,
+  FacebookIcon,
+  MailruIcon,
+  LinkedinIcon,
 } from 'react-share';
 
 
-const {
-  FacebookShareButton,
-  GooglePlusShareButton,
-  LinkedinShareButton,
-  TwitterShareButton
-} = ShareButtons;
+
 
 const exampleImage = 'images/sacred_heart.jpg'
-
-const FacebookIcon = generateShareIcon('facebook');
-const TwitterIcon = generateShareIcon('twitter');
-const GooglePlusIcon = generateShareIcon('google');
-const LinkedinIcon = generateShareIcon('linkedin');
 
 class Social extends Component {
   render() {
@@ -53,16 +49,6 @@ class Social extends Component {
 
         </div>
 
-        <div className="social-network">
-          <GooglePlusShareButton
-            url={shareUrl}
-            className="social-network-share-button">
-            <GooglePlusIcon
-              size={32}
-              round />
-          </GooglePlusShareButton>
-
-        </div>
 
         <div className="social-network">
           <LinkedinShareButton
